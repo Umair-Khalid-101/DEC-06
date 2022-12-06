@@ -1,0 +1,77 @@
+* {
+  font-family: Arial;
+}
+.navbar {
+  background-color: #242f9b;
+}
+.emailbox {
+  border-color: #242f9b;
+  border-width: 10rem;
+  border-radius: 10;
+}
+.landingpagediv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newcampaignimage {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.image {
+  width: 30%;
+}
+.campaignstarted {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.goodluck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homepagebutton {
+  display: flex;
+  justify-content: center;
+}
+.donatedimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #242f9b;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.main {
+  margin-left: 250px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+.newSideBar {
+  margin: 0;
+  padding: 0;
+}
